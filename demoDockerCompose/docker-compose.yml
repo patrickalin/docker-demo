@@ -1,0 +1,8 @@
+version: '2'
+services:
+  nginx:
+    image: nginx:1.11.8-alpine
+    ports:
+     - "999:80"
+    volumes:
+     - ./index.html:/usr/share/nginx/html/index.html

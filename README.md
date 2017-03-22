@@ -1,2 +1,2 @@
-# docker-demo
+# demo-docker
 Demo docker and docker-compose for clients
